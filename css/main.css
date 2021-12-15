@@ -1,0 +1,36 @@
+/* hyndai #2196F3 */
+/* text #757575 */
+/* hero + bg head #FFFFFF */
+/* h #212121 */
+/* adress rgba(255, 255, 255, 0.6) */
+
+/* bg + futa #2F303A */
+/* bg2 #E5E5E5 */
+/* bg3 #F5F4FA */
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: 'raleway', bold;
+}
+
+.hero {
+  background-color: var(--hero-footer-colour);
+}
+.hero-title {
+  color: var(--main-bg-colour);
+  text-transform: uppercase;
+}
+.cta {
+  color: var(--main-bg-colour);
+  background-color: var(--accent-colour);
+  cursor: pointer;
+}
+.section-team {
+  background-color: var(--second-bg-colour);
+}
+.title {
+  color: var(--title-colour);
+}
