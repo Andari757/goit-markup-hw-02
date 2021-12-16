@@ -35,13 +35,12 @@
   color: var(--title-colour);
 }
 .features {
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .feature-text {
-  font-size: 14px;
   line-height: 1.71;
 }
 .section-title {
@@ -52,22 +51,23 @@
 }
 .team {
   background-color: var(--second-bg-colour);
-}
-.team-member {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-}
-.member-position {
   font-size: 16px;
   line-height: 1.19;
 }
 
+.team-member {
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .button {
-  font-family: inherit;
-  cursor: pointer;
   color: var(--title-colour);
   background-color: var(--second-bg-colour);
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 .button.current {
   background-color: var(--accent-colour);
@@ -79,5 +79,11 @@
   color: var(--main-bg-colour);
 }
 .project-title {
-  color: var(--title-colour);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
 }

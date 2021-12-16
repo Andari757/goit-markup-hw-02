@@ -11,6 +11,7 @@
   color: var(--main-text-colour);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .list {
   list-style: none;
@@ -29,15 +30,14 @@
 .logo-part2 {
   color: #000000;
 }
+.nav-link {
+  color: var(--title-colour);
+}
 .link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.nav-link {
-  color: var(--title-colour);
 }
 .link:focus,
 .link:hover {
@@ -57,7 +57,6 @@
 }
 .footer-address {
   font-style: unset;
-  font-size: 14px;
   line-height: 1.71;
 }
 .address-literally {
