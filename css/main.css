@@ -8,10 +8,6 @@
 /* bg2 #E5E5E5 */
 /* bg3 #F5F4FA */
 
-.list {
-  list-style: none;
-}
-
 .logo {
   font-family: 'raleway', bold;
 }
@@ -33,4 +29,22 @@
 }
 .title {
   color: var(--title-colour);
+}
+.button {
+  color: var(--title-colour);
+  background-color: var(--second-bg-colour);
+}
+.button.current {
+  background-color: var(--accent-colour);
+  color: var(--main-bg-colour);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-colour);
+  color: var(--main-bg-colour);
+}
+.project-title {
+  color: var(--title-colour);
+}
+.project-type {
 }

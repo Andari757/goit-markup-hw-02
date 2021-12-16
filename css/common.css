@@ -11,6 +11,9 @@
   color: var(--main-text-colour);
   font-family: 'Roboto', sans-serif;
 }
+.list {
+  list-style: none;
+}
 .logo-part1 {
   color: var(--accent-colour);
 }
@@ -20,14 +23,16 @@
 .nav-link {
   color: var(--title-colour);
 }
-.hover:hover,
-.hover:focus {
+.nav-link:focus,
+.contact-link:hover,
+.nav-link:hover,
+.contact-link:focus {
   color: var(--accent-colour);
 }
 .contact-link {
   color: var(--main-text-colour);
 }
-.nav-current {
+.nav-link.current {
   color: var(--accent-colour);
 }
 .footer {
