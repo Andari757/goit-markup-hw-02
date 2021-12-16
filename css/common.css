@@ -10,12 +10,18 @@
   background-color: var(--main-bg-colour);
   color: var(--main-text-colour);
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
 }
+
 .logo {
+  text-decoration: none;
   font-family: 'raleway', bold;
+  font-size: 26px;
+  line-height: 1.19;
+  font-style: unset;
 }
 .logo-part1 {
   color: var(--accent-colour);
@@ -23,13 +29,18 @@
 .logo-part2 {
   color: #000000;
 }
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .nav-link {
   color: var(--title-colour);
 }
-.nav-link:focus,
-.contact-link:hover,
-.nav-link:hover,
-.contact-link:focus {
+.link:focus,
+.link:hover {
   color: var(--accent-colour);
 }
 .contact-link {
@@ -44,9 +55,15 @@
 .footer-logo-part2 {
   color: var(--main-bg-colour);
 }
+.footer-address {
+  font-style: unset;
+  font-size: 14px;
+  line-height: 1.71;
+}
 .address-literally {
   color: var(--main-bg-colour);
 }
 .address-contact {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }

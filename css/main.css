@@ -11,22 +11,60 @@
 .hero {
   background-color: var(--hero-footer-colour);
 }
+
 .hero-title {
   color: var(--main-bg-colour);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .cta {
   color: var(--main-bg-colour);
   background-color: var(--accent-colour);
   cursor: pointer;
-}
-.section-team {
-  background-color: var(--second-bg-colour);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 .title {
   color: var(--title-colour);
 }
+.features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team {
+  background-color: var(--second-bg-colour);
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.member-position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 .button {
+  font-family: inherit;
   cursor: pointer;
   color: var(--title-colour);
   background-color: var(--second-bg-colour);
@@ -42,6 +80,4 @@
 }
 .project-title {
   color: var(--title-colour);
-}
-.project-type {
 }
