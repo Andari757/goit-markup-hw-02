@@ -8,10 +8,6 @@
 /* bg2 #E5E5E5 */
 /* bg3 #F5F4FA */
 
-.logo {
-  font-family: 'raleway', bold;
-}
-
 .hero {
   background-color: var(--hero-footer-colour);
 }
@@ -31,6 +27,7 @@
   color: var(--title-colour);
 }
 .button {
+  cursor: pointer;
   color: var(--title-colour);
   background-color: var(--second-bg-colour);
 }
